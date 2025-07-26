@@ -10,7 +10,7 @@ app.set('trust proxy', 1);
 
 app.use(cors(
   {
-    origin: 'http://localhost:3000'  // Allow all origins
+    origin: 'https://sub-easy-client.vercel.app'  // Allow all origins
   }
 ));
 
